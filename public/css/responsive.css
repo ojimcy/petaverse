@@ -946,6 +946,10 @@
 	  right: 4px;
 	}
 
+.header-right {
+	padding-top: 60px;
+}
+
 .header-right img {
 	padding-bottom: 1.8rem;
     border-radius: 2rem;

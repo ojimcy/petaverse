@@ -473,7 +473,8 @@ a.navbar-icon {
    transition: all 0.3s ease-in-out;
 }
 .logo a.navbar-brand img {
-    max-width: 140px;
+    max-width: 60px;
+    max-height: 60px;
 }
 .main-menu .icon-set li {
     display: inline;
@@ -854,13 +855,14 @@ select#language\ right-space option {
 }
 
 .header-right {
-		padding-top: 60px;
+		padding-top: 150px;
 		margin-left: 1%;
 		margin-right: 1%;
 	}
 	.header-right img {
 		border-radius: 2rem;
-		transform: rotate(-6deg);
+		/* transform: rotate(-6deg); */
+        margin-top: 2rem;
 	}
 	#hero-slider-area {
 		position: relative;

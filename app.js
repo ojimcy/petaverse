@@ -24,6 +24,11 @@ app.use(express.static(path.join(__dirname, 'public')))
 app.use('/', require('./routes/index'))
 app.use('/home', require('./routes/index'))
 app.use('/explore', require('./routes/index'))
+app.use('/collection', require('./routes/index'))
+app.use('/item-details', require('./routes/index'))
+app.use('/faqs', require('./routes/index'))
+app.use('/partners', require('./routes/index'))
+app.use('/create', require('./routes/index'))
 
 const PORT = process.env.PORT
 
