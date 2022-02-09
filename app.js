@@ -4,8 +4,16 @@ const dotenv = require('dotenv')
 const morgan = require('morgan')
 const {engine} = require('express-handlebars')
 
+// database
+const db = require('./config/db')
+
 // load config 
 dotenv.config({path: './config/config.env'})
+
+// Test DB connection
+db.authenticate()
+    .then(() => console.log('Database connected...'))
+    .catch(err => console.log('Error: ' + err))
 
 const app = express()
 
