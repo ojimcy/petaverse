@@ -36,7 +36,10 @@ app.use('/collection', require('./routes/index'))
 app.use('/item-details', require('./routes/index'))
 app.use('/faqs', require('./routes/index'))
 app.use('/partners', require('./routes/index'))
+
 app.use('/create', require('./routes/index'))
+app.use('/product', require('./routes/index'))
+app.use('/data', require('./routes/index'))
 
 const PORT = process.env.PORT
 

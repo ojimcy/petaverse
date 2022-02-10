@@ -39,4 +39,12 @@ router.get('/partners', (req, res) => {
 router.get('/create', (req, res) => {
     res.render('create')
 })
+router.get('/product', (req, res) => {
+    res.render('product')
+})
+router.get('/data', (req, res) => {
+    res.render('data-tables')
+})
+
+
 module.exports = router
