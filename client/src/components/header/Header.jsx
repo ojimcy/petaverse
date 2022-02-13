@@ -2,11 +2,9 @@ import React , { useRef , useState , useEffect } from 'react';
 import { Link , useLocation } from "react-router-dom";
 import menus from "../../pages/menu";
 import DarkMode from './DarkMode';
-import logoheader from '../../assets/images/logo/logo.png'
-import logoheader2x from '../../assets/images/logo/logo@2x.png'
-import logodark from '../../assets/images/logo/logo_dark.png'
-import logodark2x from '../../assets/images/logo/logo_dark@2x.png'
-import imgsun from '../../assets/images/icon/sun.png'
+import logoheader from '../../assets/images/logo/petaverselogo.png'
+import logodark from '../../assets/images/logo/petaverselogo.png'
+import imgsun from '../../assets/images/icon/sun1.png'
 import avt from '../../assets/images/avatar/avt-2.jpg'
 
 
@@ -55,8 +53,8 @@ const Header = () => {
                                 <div id="site-logo" className="clearfix">
                                     <div id="site-logo-inner">
                                         <Link to="/" rel="home" className="main-logo">
-                                            <img className='logo-dark'  id="logo_header" src={logodark} srcSet={`${logodark2x}`} alt="nft-gaming" />
-                                            <img className='logo-light'  id="logo_header" src={logoheader} srcSet={`${logoheader2x}`} alt="nft-gaming" />
+                                            <img className='logo-dark'  id="logo_header" src={logodark}  alt="petaverse" />
+                                            <img className='logo-light'  id="logo_header" src={logoheader}  alt="petaverse" />
                                         </Link>
                                     </div>
                                 </div>
