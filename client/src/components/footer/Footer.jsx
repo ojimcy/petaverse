@@ -1,7 +1,7 @@
 import React, { useState ,useEffect } from 'react';
 import { Link } from 'react-router-dom'
 import logodark from '../../assets/images/logo/logo_dark.png'
-import logofooter from '../../assets/images/logo/logo2.png'
+import logofooter from '../../assets/images/logo/petaverselogo.png'
 const Footer = () => {
     const accountList = [
         {
@@ -11,10 +11,6 @@ const Footer = () => {
         {
             title: "Collection",
             link: "/wallet-connect"
-        },
-        {
-            title: "Author Profile",
-            link: "/edit-profile"
         },
         {
             title: "Create Item",
@@ -29,10 +25,6 @@ const Footer = () => {
         {
             title: "Live Auctions",
             link: "/live-auctions"
-        },
-        {
-            title: "Item Details",
-            link: "/item-details-01"
         },
         {
             title: "Activity",
@@ -78,10 +70,6 @@ const Footer = () => {
             icon: "icon-fl-tik-tok-2",
             link: "#"
         },
-        {
-            icon: "icon-fl-vt",
-            link: "#"
-        },
         
 
     ]
@@ -124,7 +112,7 @@ const Footer = () => {
                                         
                                     </Link>
                                 </div>
-                                <p className="sub-widget-logo">Lorem ipsum dolor sit amet,consectetur adipisicing elit. Quis non, fugit totam vel laboriosam vitae.</p>
+                                <p className="sub-widget-logo">Explore on the world's best NFT marketplace for pets with our beautiful NFT products. We want to be a part of your smile, success and future growth.</p>
                             </div>
                         </div>
                         <div className="col-lg-2 col-md-4 col-sm-5 col-5">

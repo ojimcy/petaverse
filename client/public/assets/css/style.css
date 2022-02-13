@@ -1507,7 +1507,7 @@ header{
 /* Site Logo
 -------------------------------------------------------------- */
 #site-logo {
-    height: 80px;
+    height: 56px;
 }
 
 .flat-search-btn {
@@ -1529,7 +1529,7 @@ header{
     transform        : translateY(-50%);
 }
 .main-logo img {
-    width: 133px;
+    width: 56px;
     height: 56px;
 }
 .main-logo img,
@@ -1542,6 +1542,12 @@ header{
 .logo-light {
     display: block;
 }
+
+#logo-footer {
+    width: 56px;
+    height: 56px;
+}
+
 .is_dark .logo-dark {
     display: block;
 }
