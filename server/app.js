@@ -5,7 +5,7 @@ const morgan = require('morgan')
 const {engine} = require('express-handlebars')
 
 // database
-const db = require('./config/db')
+const db = require('./server/config/db')
 
 // load config 
 dotenv.config({path: './config/config.env'})
