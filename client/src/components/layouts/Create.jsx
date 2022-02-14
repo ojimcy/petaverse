@@ -9,19 +9,19 @@ const Create = () => {
     const data = [
         {
             title: "Set Up Your Wallet",
-            description: "Wallet that is functional for NFT purchasing. You may have a Coinbase account at this point, but very few are actually set up to buy an NFT.",
+            description: "Set up a wallet that is functional for NFT purchasing. Once your wallet is set up, connect it to Petaverse by clicking the wallet icon in the top right corner.",
             icon : icon1,
             colorbg : "icon-color1"
         },
         {
             title: "Create Your Collection",
-            description: "Setting up your NFT collection and creating NFTs on NFTs is easy! This guide explains how to set up your first collection",
+            description: "Setting up your NFT collection and creating NFTs on NFTs is easy! Click My Collections and set up your collection. Add social links, a description, profile & banner images, and set a secondary sales fee.",
             icon : icon2,
             colorbg : "icon-color2"
         },
         {
             title: "Add Your NFTs",
-            description: "Sed ut perspiciatis un de omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem.",
+            description: "Upload your art work, add the neccessary fields including title, description. Customize your NFTs with properties, stats, etc.",
             icon : icon3,
             colorbg : "icon-color3"
         },

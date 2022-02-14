@@ -3325,3 +3325,7 @@ header{
     top        : 0px;
     color      : #fff;
 }
+
+.img-landing {
+    width: 350px;
+}

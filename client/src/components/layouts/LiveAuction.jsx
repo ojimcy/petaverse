@@ -24,7 +24,7 @@ const LiveAuction = props => {
                             <div className="heading-live-auctions">
                                 <h2 className="tf-title pb-20">
                                     Live Auctions</h2>
-                                <Link to="/explore-03" className="exp style2">EXPLORE MORE</Link>
+                                <Link to="/auctions" className="exp style2">EXPLORE MORE</Link>
                             </div>
                         </div>
                         <div className="col-md-12">
@@ -63,7 +63,7 @@ const LiveAuction = props => {
                                                                             <Link to="/login" className="wishlist-button heart"><span className="number-like">{item.wishlist}</span></Link>
                                                                             <div className="featured-countdown">
                                                                                 <span className="slogan"></span>
-                                                                                <Countdown date={Date.now() + 500000000}>
+                                                                                <Countdown date={Date.now() + 50000000}>
                                                                                     <span>You are good to go!</span>
                                                                                 </Countdown>
                                                                             </div>
@@ -72,7 +72,7 @@ const LiveAuction = props => {
                                                                             </div>
                                                                         </div>
                                                                         <div className="card-title">
-                                                                            <h5><Link to="/item-details-01">"{item.title}"</Link></h5>
+                                                                            <h5><Link to="/item-details-01">{item.title}</Link></h5>
                                                                             <div className="tags">{item.tags}</div>
                                                                         </div>
                                                                         <div className="meta-info">
@@ -82,7 +82,7 @@ const LiveAuction = props => {
                                                                                 </div>
                                                                                 <div className="info">
                                                                                     <span>Creator</span>
-                                                                                    <h6> <Link to="/authors-02">{item.nameAuthor}
+                                                                                    <h6> <Link to="/authors-02">@{item.nameAuthor}
                                                                                     </Link> </h6>
                                                                                 </div>
                                                                             </div>

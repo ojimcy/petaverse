@@ -1,26 +1,26 @@
 import img1 from '../images/box-item/card-item8.jpg'
-import imga1 from '../images/avatar/avt-11.jpg'
-import img2 from '../images/box-item/image-box-10.jpg'
-import imga2 from '../images/avatar/avt-12.jpg'
-import img3 from '../images/box-item/card-item-11.jpg'
-import imga3 from '../images/avatar/avt-13.jpg'
-import img4 from '../images/box-item/image-box-21.jpg'
-import imga4 from '../images/avatar/avt-14.jpg'
-import imgCollection1 from '../images/avatar/avt-18.jpg'
-import imgCollection2 from '../images/avatar/avt-16.jpg'
-import imgCollection3 from '../images/avatar/avt-17.jpg'
+import imga1 from '../images/avatar/1.jpg'
+import img2 from '../images/box-item/bookdog.jpeg'
+import imga2 from '../images/avatar/4.jpg'
+import img3 from '../images/box-item/clothdog.jpeg'
+import imga3 from '../images/avatar/1.jpg'
+import img4 from '../images/box-item/foodiedog.jpeg'
+import imga4 from '../images/avatar/4.jpg'
+import imgCollection1 from '../images/avatar/1.jpg'
+import imgCollection2 from '../images/avatar/4.jpg'
+import imgCollection3 from '../images/avatar/1.jpg'
 
 
 const liveAuctionData = [
     {
         img: img1,
-        title: "Hamlet Contemplates Contemplates ",
+        title: "Classic Bingo",
         tags: "bsc",
         imgAuthor: imga1,
-        nameAuthor: "SalvadorDali",
-        price: "4.89 ETH",
+        nameAuthor: "Jimcy",
+        price: "1.89 ETH",
         priceChange: "$12.246",
-        wishlist: "100",
+        wishlist: "400",
         imgCollection: imgCollection1,
         nameCollection: "Colorful Abstract"
     },
